@@ -17,17 +17,21 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url(DSC03616-2.jpg);
+  background-color: black;
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+nav {
+ position: sticky;
+  top: 0px;
 }
